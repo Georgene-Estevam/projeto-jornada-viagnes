@@ -6,10 +6,6 @@
   font-family: "Montserrat";
 }
 
-body {
-  overflow-x: hidden;
-}
-
 @font-face {
   font-family: "Montserrat";
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
@@ -27,6 +23,8 @@ body {
 
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
+
+  --line-menu-ul-color: #ffffff;
 
   --title-weight: 700;
   --text-weight: 400;
