@@ -16,45 +16,44 @@ a.logo {
 }
 
 nav {
-  overflow-x: hidden;
   border-top: 1px dashed #ffffff;
 }
 
 .menu {
   background-color: var(--background-tertiary-color);
-  position: absolute;
+  position: fixed;
   top: 140px;
   right: 0;
-  width: 100%;
-  max-width: 768px;
   transform: translateX(100%);
   transition: transform 0.4s ease;
   z-index: 1000;
+  width: 100%;
+  max-width: 768px;
+  padding: 0;
   overflow-x: hidden;
 }
 
-.menu.active { 
-    transform: translateX(0); 
-  }
-
-.menu ul {
-  flex-direction: column;
-  align-items: center;
-  gap: 32px;
+.menu.active {
+  transform: translateX(0);
 }
 
 .menu ul li {
   list-style-type: none;
   text-align: center;
-  padding: 20px 0;
-  border-bottom: 1px dashed #ffffff;
+  border-bottom: 1px dashed var(--line-menu-ul-color);
   cursor: pointer;
+  padding: 20px;
+}
+
+.menu ul li:hover {
+  background-color: rgba(30, 143, 255, 0.274);
 }
 
 .menu ul li a {
   font-size: 20px;
   color: var(--text-secondary-color);
   text-decoration: none;
+  padding: 20px;
 }
 
 .hamburguer {
