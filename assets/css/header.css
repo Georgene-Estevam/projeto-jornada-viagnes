@@ -9,10 +9,14 @@ header {
   padding: 38px 48px;
 }
 
-a.logo {
+img.logo-mobile {
   display: inline-block;
   width: 68px;
   height: 64px;
+}
+
+img.logo-desktop {
+  display: none;
 }
 
 nav {
@@ -45,15 +49,15 @@ nav {
   padding: 20px;
 }
 
-/*.menu ul li:hover {
-  background-color: rgba(30, 143, 255, 0.274);
-}*/
-
 .menu ul li a {
   font-size: 20px;
   color: var(--text-secondary-color);
   text-decoration: none;
   padding: 20px;
+}
+
+.menu ul li a:hover {
+  color: var(--primary-color);
 }
 
 .hamburguer {
@@ -70,10 +74,14 @@ nav {
     top: 0;
     transform: translateX(0);
     border: 0;
-    display: flex;
     justify-content: right;
     font-weight: var(--menu-text-weight);
     width: 100%;
+  }
+
+  .menu ul {
+    display: flex;
+    justify-content: flex-end;
   }
 
   .menu ul li {
@@ -88,5 +96,21 @@ nav {
     padding: 0;
     cursor: pointer;
     font-size: 22px;
+    font-weight: var(--menu-text-weight);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 38px 120px;
+  }
+  img.logo-mobile {
+    display: none;
+  }
+
+  img.logo-desktop {
+    display: inline-block;
+    width: 260px;
+    height: 64px;
   }
 }
