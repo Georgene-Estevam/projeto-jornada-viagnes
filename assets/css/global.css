@@ -52,6 +52,6 @@ body {
 
 @media screen (min-width: 768px) {
   .section-title h2 {
-  font-size: 32px;
-}
+    font-size: 32px;
+  }
 }
