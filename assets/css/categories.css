@@ -4,10 +4,11 @@
   text-align: center;
   justify-content: center;
   gap: 24px;
+  padding: 88px 0;
 }
 
 .categories-card-link {
-  margin: 40px 0;
+  margin: 30px 10px;
   border-radius: 16px;
 }
 
@@ -17,7 +18,7 @@
 }
 
 .categories-card-link img {
-  width: 100%;
+  /* width: 100%; */
   max-width: 64px;
   height: auto;
 }
@@ -34,14 +35,23 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin: 20px auto;
-    gap: 32px;
+    gap: 24px;
     align-items: end;
     justify-content: center;
   }
 
   .categories-card-link {
-    margin: 40px 20px;
+    margin: 30px 20px;
+    padding: 10px;
   }
+
+  .categories-card-link img {
+    max-width: 60px;
+  }
+
+  .categories-card-link h3 {
+  font-size: 22px;
+}
 }
 
 @media screen and (min-width: 1024px) {
