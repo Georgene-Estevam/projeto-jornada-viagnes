@@ -1,6 +1,4 @@
-@import url("./global.css");
-
-header {
+.main-header {
   background-color: var(--background-tertiary-color);
   display: flex;
   flex-direction: row;
@@ -25,7 +23,7 @@ nav {
 
 .menu {
   background-color: var(--background-tertiary-color);
-  position: fixed;
+  position: absolute;
   top: 140px;
   right: 0;
   transform: translateX(100%);
@@ -34,11 +32,10 @@ nav {
   width: 100%;
   max-width: 768px;
   padding: 0;
-  overflow-x: hidden;
 }
 
 .menu.active {
-  transform: translateX(0);
+  transform: translateX(0%);
 }
 
 .menu ul li {
