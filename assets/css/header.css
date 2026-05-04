@@ -115,3 +115,9 @@ border-top: 1px dashed #ffffff;
     height: 64px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .main-header {
+  padding: 38px 130px;
+}
+}

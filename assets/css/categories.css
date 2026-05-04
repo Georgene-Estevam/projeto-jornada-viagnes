@@ -24,8 +24,6 @@
 }
 
 .categories-card-link h3 {
-  color: var(--text-primary-color);
-  font-weight: var(--title-weight);
   font-size: 27px;
   margin-top: 20px;
 }
