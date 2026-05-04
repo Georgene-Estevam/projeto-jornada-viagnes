@@ -40,6 +40,15 @@ body {
   --menu-text-weight: 500;
 }
 
+section {
+  max-width: 312px;
+  margin: 0 auto;
+}
+
+/* .hero .hero-img {
+  min-width: 100%;
+} */
+
 .section-title {
   margin: 0 auto;
   width: 280px;
@@ -60,6 +69,18 @@ body {
   border: none;
 }
 
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  color: var(--text-primary-color);
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 34px;
+}
+
 .button {
   max-width: 270px;
   width: 100%;
@@ -77,13 +98,29 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  section {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
   .section-title h2 {
     font-size: 32px;
   }
 }
 
 @media screen and (min-width: 1024px) {
+  section {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
   .button:hover {
     background-color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    max-width: 1250px;
+    margin: 0 auto;
   }
 }
