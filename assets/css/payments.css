@@ -22,12 +22,13 @@
 .image.bag {
   background: url(../img/gallery1-mobile.png) no-repeat;
   background-size: contain;
-  background-position: right;
+  background-position: left;
 }
 
 .image.passport {
   background: url(../img/gallery2-mobile.png) no-repeat;
   background-size: contain;
+  background-position: right;
 }
 
 .image.people.colspan-2 {
@@ -67,6 +68,7 @@
 @media screen and (min-width: 1024px) {
   .content-container {
     display: flex;
+    justify-content: space-between;
   }
 
   .text-content {
@@ -86,14 +88,40 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-    .image.bag {
+@media screen and (min-width: 1366px) {
+  .content-container {
+    padding: 20px 0;
+  }
+  .text-content {
+    padding: 20px 10px 0 40px;
+    max-width: 550px;
+    width: 100%;
+  }
+
+  .image-gallery {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+
+  .image.bag {
     background: url(../img/gallery1-tablet.png) no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 360px;
   }
 
   .image.passport {
     background: url(../img/gallery2-tablet.png) no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 360px;
+  }
+
+  .image.people.colspan-2 {
+    background: url(../img/gallery3-tablet.png) no-repeat;
+    background-size: contain;
+    background-position: top;
+    height: 200px;
   }
 }
