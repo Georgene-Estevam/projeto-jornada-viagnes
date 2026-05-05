@@ -1,3 +1,7 @@
+section.payments {
+  position: relative;
+}
+
 .content-container {
   padding-top: 20px;
 }
@@ -88,40 +92,38 @@
   }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1440px) {
   .content-container {
-    padding: 20px 0;
+    padding: 10px 0 20px 40px;
   }
   .text-content {
-    padding: 20px 10px 0 40px;
+    padding: 20px 10px 0 0;
     max-width: 550px;
     width: 100%;
   }
 
   .image-gallery {
-    width: 1100px;
-    margin: 0 auto;
-    padding: 20px 0;
+    width: 700px;
+        margin: 0 auto;
+        padding: 20px 0;
+        height: 450px;
   }
 
   .image.bag {
     background: url(../img/gallery1-tablet.png) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 360px;
   }
 
   .image.passport {
     background: url(../img/gallery2-tablet.png) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 360px;
   }
 
   .image.people.colspan-2 {
     background: url(../img/gallery3-tablet.png) no-repeat;
     background-size: contain;
-    background-position: top;
-    height: 200px;
+    background-position: bottom;
   }
 }
