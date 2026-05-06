@@ -40,13 +40,19 @@ body {
   --menu-text-weight: 500;
 }
 
-section {
+div.container {
   max-width: 312px;
   margin: 0 auto;
 }
 
-/* .hero .hero-img {
-  min-width: 100%;
+/* section {
+  max-width: 312px;
+  margin: 0 auto;
+}
+
+.hero .hero-img {
+  max-width: none;
+  width: 100%;
 } */
 
 .section-title {
@@ -98,7 +104,7 @@ section {
 }
 
 @media screen and (min-width: 768px) {
-  section {
+  div.container {
     max-width: 680px;
     margin: 0 auto;
   }
@@ -109,7 +115,7 @@ section {
 }
 
 @media screen and (min-width: 1024px) {
-  section {
+  div.container {
     max-width: 1000px;
     margin: 0 auto;
   }
@@ -119,7 +125,7 @@ section {
 }
 
 @media screen and (min-width: 1440px) {
-  section {
+  div.container {
     max-width: 1250px;
     margin: 0 auto;
   }
