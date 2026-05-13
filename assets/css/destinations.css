@@ -9,7 +9,7 @@
   padding: 0 20px;
 }
 
-.destinations .item header h4 {
+.destinations .item header h3 {
   margin: 24px 0;
 }
 
@@ -73,7 +73,7 @@ header .img-item.osaka {
     height: 460px;
   }
 
-  .item h4 {
+  .item h3 {
     font-size: 32px;
   }
 
