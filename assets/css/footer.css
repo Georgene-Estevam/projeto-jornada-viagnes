@@ -41,6 +41,11 @@
   font-size: 20px;
 }
 
+.social-media a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
 @media screen and (min-width: 768px) {
   .bottom-hero .hero-img {
     background: url(../img/bg-bottom-hero-tablet.png) no-repeat;
@@ -77,7 +82,7 @@
   }
 
   .footer-content {
-    padding: 38px 130px;
+    padding: 52px 130px;
   }
 
   .footer-content-wrapper {
