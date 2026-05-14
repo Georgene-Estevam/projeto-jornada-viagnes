@@ -21,7 +21,7 @@ img.logo-desktop {
 .menu {
   background-color: var(--background-tertiary-color);
   position: absolute;
-  top: 100%;
+  top: 99%;
   left: 0;
   right: 0;
   transform: translateX(100%);

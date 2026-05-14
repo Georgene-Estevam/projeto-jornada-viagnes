@@ -4,7 +4,6 @@
   background-position: center;
   width: 100%;
   height: 400px;
-  margin-top: 88px;
 }
 
 .footer-content {
@@ -31,7 +30,7 @@
 }
 
 .footer-content-wrapper p a {
-  color: #2BFDBE;
+  color: #2bfdbe;
   font-style: italic;
   text-decoration: none;
 }
@@ -64,7 +63,7 @@
   }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .bottom-hero .hero-img {
     background: url(../img/bg-bottom-hero-desktop.png) no-repeat;
     background-size: cover;
@@ -76,7 +75,7 @@
   }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1440px) {
   .bottom-hero .hero-img {
     background-position: center;
   }
