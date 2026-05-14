@@ -184,3 +184,34 @@
 }
 
 /*======================Fim da estilização da página de pacotes de viagem======================*/
+
+/*======================Início da estilização da página de contatos======================*/
+
+.contact.hero .hero-img {
+  background: url(../img/contact/Banner-Contato.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .contact.hero .hero-img {
+    background: url(../img/contact/Banner-Contato-tablet.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact.hero .hero-img {
+    background: url(../img/contact/Banner-Contato-desktop.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+  }
+}
+/*======================Fim da estilização da página de contatos======================*/

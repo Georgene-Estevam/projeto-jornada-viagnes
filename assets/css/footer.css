@@ -88,3 +88,38 @@
     max-width: none;
   }
 }
+
+/*===============================Início da estilização da página de contato===============================*/
+.contact .hero-img {
+  background: url(../img/contact/imagem-mulher-banco-por-do-sol.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact.bottom-hero .hero-img {
+    background: url(../img/contact/imagem-mulher-banco-por-do-sol-tablet.png)
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact.bottom-hero .hero-img {
+    background: url(../img/contact/imagem-mulher-banco-por-do-sol-tablet-desktop.png)
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    margin-top: 88px;
+  }
+}
+
+/*===============================Fim da estilização da página de contato===============================*/
