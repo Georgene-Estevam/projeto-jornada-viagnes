@@ -43,6 +43,7 @@ body {
 div.container {
   max-width: 312px;
   margin: 0 auto;
+  padding: 0 4%;
 }
 
 /* section {
@@ -56,8 +57,9 @@ div.container {
 } */
 
 .section-title {
-  margin: 0 auto;
-  width: 280px;
+  /* width: 280px; */
+  max-width: 1200px;
+  margin: 56px auto;
 }
 
 .section-title h2 {

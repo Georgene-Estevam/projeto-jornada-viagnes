@@ -1,11 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="shortcut icon" href="./favico.svg" type="xml/svg" />
+    <meta
+      name="description"
+      content="Conheça o blog da nossa agência de viagens especializada em criar experiências inesquecíveis. Oferecemos pacotes personalizados, destinos exclusivos e atendimento excepcional para tornar sua jornada única e memorável."
+    />
     <title>Blog - Jornada Viagens</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="main-header">
+      <a class="logo" href="./index.html" title="Voltar para a página inicial">
+        <img
+          class="logo-mobile"
+          src="./assets/img/bussola-jornada-branco.png"
+          alt="Bussola do logo Jornada Viagens"
+        />
+
+        <img
+          class="logo-desktop"
+          src="./assets/img/bussola-texto-jornada-branco.png"
+          alt="Logo Jornada Viagens na cor branca"
+        />
+      </a>
+
+      <div class="hamburguer">
+        <img src="./assets/img/menu.png" alt="Menu de navegação" />
+      </div>
+
+      <nav class="menu">
+        <ul>
+          <li>
+            <a
+              href="blog.html"
+              class="active"
+              target="_blank"
+              title="Acessar Blog"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a href="pacotes-de-viagens.html" title="Acessar Pacotes de viagens"
+              >Pacotes de viagens</a
+            >
+          </li>
+          <li><a href="contato.html" title="Acessar Contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Início da seção de hero-->
+    <section class="blog hero">
+      <div class="hero-img">
+        <div class="hero-content"></div>
+      </div>
+    </section>
+    <!--Fim da seção de hero-->
+
+    <!--Início da seção de about country-->
+    <section class="about-coutry">
+      <div class="section-title">
+        <h2>Tokyo</h2>
+        <hr />
+      </div>
+
+      <div class="container">
+        <article class="blog-post">
+            <h3 class="content-title">Chegada</h3>
+            <p class="content-text">
+                Nossa viagem começou no Aeroporto Internacional de Narita, localizado a cerca de 60 km de Tóquio. Após desembarcar e fazer todos os procedimentos de imigração, fomos recebidos pela equipe da Jornada Viagens, que nos conduziu até o nosso hotel.
+            </p>
+
+            <div class="post-image tokyo-1"></div>
+        </article>
+
+        <article class="blog-post">
+            <h3 class="content-title">Acomodação</h3>
+            <p class="content-text">
+                Nós hospedamos no luxuoso Hotel Okura Tokyo, localizado no bairro de Toranomon. O hotel possui uma vista incrível para a cidade, e oferece uma ampla gama de serviços, incluindo um spa, uma piscina, restaurantes renomados e um lounge bar. Ficamos encantados com a atenção aos detalhes e a qualidade do atendimento.
+            </p>
+
+            <div class="post-image tokyo"></div>
+        </article>
+      </div>
+    </section>
+    <!--Fim da seção de about country-->
+
+    <script src="./menu_mobile.js"></script>
+  </body>
 </html>
