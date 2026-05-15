@@ -215,3 +215,13 @@
   }
 }
 /*======================Fim da estilização da página de contatos======================*/
+
+/*======================Início da estilização da página de blog======================*/
+.blog.hero .hero-img {
+  background: url(../img/blog/banner-blog-mobile.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  background-position: center;
+}
+/*======================Fim da estilização da página de blog======================*/
