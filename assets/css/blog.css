@@ -1,3 +1,19 @@
+section.about-coutry {
+  margin-bottom: 88px;
+}
+
+.section-title h2 {
+  margin-top: 88px;
+}
+
+h3.content-title {
+  margin: 32px 0 24px 0;
+}
+
+.blog-post p.content-text {
+  margin: 24px 0;
+}
+
 .blog-post .post-image.tokyo-1 {
   background: url(../img/blog/Tokyo1-mobile.png) no-repeat;
   background-size: contain;
@@ -6,10 +22,66 @@
   background-position: center;
 }
 
-.blog-post .post-image.tokyo {
-    background: url(../img/tokyo-mobile.jpg) no-repeat;
+.blog-post figure .post-image.tokyo {
+  background: url(../img/tokyo-mobile.jpg) no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 360px;
+  background-position: center;
+}
+
+figcaption {
+  font-size: 14px;
+  color: var(--text-primary-color);
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  article.blog.item {
+    display: block;
+  }
+
+  article.blog.item header.img-item {
+    padding: 0;
+    margin: 0;
+  }
+
+  .blog-post.col-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 24px;
+    margin-top: 42px;
+  }
+
+  .blog-post.col-2 h3.content-title {
+    margin: 0px 0 24px 0;
+  }
+
+  .blog-post.col-2 p.content-text {
+    font-size: 18px;
+  }
+
+  .blog-post figure .post-image.tokyo {
+    background: url(../img/blog/Tokyo-2-tablet.png) no-repeat;
     background-size: contain;
-    width: 100%;
-    height: 360px;
+    max-width: 100%;
+    width: 648px;
+    height: 300px;
     background-position: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  article.blog.item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  article.blog.item footer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
 }
