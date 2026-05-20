@@ -96,14 +96,8 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .card {
-    max-width: 588px;
-  }
-}
-
-@media screen and (min-width: 1920px) {
   .offers-cards {
-    width: 1250px;
+    max-width: 1250px;
     margin: 0 auto;
   }
 }

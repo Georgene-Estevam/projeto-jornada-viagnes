@@ -16,7 +16,6 @@ section.contact.form {
 .form-content label {
   font-size: 22px;
   color: var(--text-primary-color);
-  /* font-weight: var(--menu-text-weight); */
 }
 
 .form-content hr {
@@ -46,6 +45,11 @@ section.contact.form {
   padding: 0 16px;
   font-size: 18px;
   color: var(--text-primary-color);
+}
+
+.input-group-1 #label-phone, .input-group-2 #label-email {
+  position: relative;
+  -webkit-margin-top-collapse: 20px;
 }
 
 button[type="submit"].button {
@@ -86,11 +90,24 @@ button[type="submit"].button {
   .input-group-1, .input-group-2 {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
   }
 
   input[type="tel"], input[type="email"] {
-    width: 100%;
+    width: 310px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  input[type="tel"], input[type="email"] {
+    width: 290px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  input[type="tel"], input[type="email"] {
+    width: 270px;
   }
 }

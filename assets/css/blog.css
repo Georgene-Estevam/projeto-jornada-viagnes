@@ -73,6 +73,10 @@ figcaption {
 }
 
 @media screen and (min-width: 1024px) {
+  figcaption {
+    margin-top: 10px;
+  }
+
   article.blog.item {
     display: flex;
     flex-direction: column;

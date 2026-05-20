@@ -35,11 +35,6 @@ header .img-item.osaka {
   height: 350px;
 }
 
-/* .item p {
-  font-size: 20px;
-  line-height: 36px;
-}*/
-
 .item .button {
   margin: 20px 0;
   width: 100%;
@@ -97,18 +92,42 @@ header .img-item.osaka {
   }
 }
 
+/*=================Início da estilização da página pacotes-de-viagens=================*/
+@media screen and (min-width: 1024px) {
+  article.travel-package.item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  article.travel-package.item footer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+}
+/*===================Fim da estilização da página pacotes-de-viagens===================*/
+
 /*=================Início da estilização da página blog=================*/
-header .img-item.hiroshima {
-  background: url("../img/blog/Hiroshima.png") no-repeat;
-  background-size: cover;
+.blog header .img-item.osaka {
+  background: url("../img/osaka-mobile.jpg") no-repeat;
+  background-size: contain;
   background-position: center;
   max-width: 312px;
   height: 300px;
 }
 
-header .img-item.kyoto {
+.blog header .img-item.hiroshima {
+  background: url("../img/blog/Hiroshima.png") no-repeat;
+  background-size: contain;
+  background-position: center;
+  max-width: 312px;
+  height: 300px;
+}
+
+.blog header .img-item.kyoto {
   background: url("../img/blog/Kyoto-mobile.png") no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   max-width: 312px;
   height: 300px;
@@ -154,6 +173,33 @@ header .img-item.kyoto {
     max-width: 1280px;
     padding: 0 20px;
   }
+
+  article.blog.item .img-item.osaka {
+    background: url("../img/blog/Osaka-tablet.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: 648px;
+    width: 100%;
+    height: 150px;
+  }
+
+  article.blog.item .img-item.img-item.hiroshima {
+    background: url("../img/blog/Hiroshima-tablet.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: 648px;
+    width: 100%;
+    height: 150px;
+  }
+
+  article.blog.item .img-item.img-item.kyoto {
+    background: url("../img/blog/Kyoto-tablet.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: 648px;
+    width: 100%;
+    height: 150px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -170,7 +216,7 @@ header .img-item.kyoto {
   article.blog.item .img-item.osaka {
     background: url("../img/blog/Osaka-tablet.png") no-repeat;
     background-size: cover;
-    background-position: 100% 100%;
+    background-position: 100%;
     max-width: 384px;
     width: 100%;
     height: 300px;
@@ -179,7 +225,7 @@ header .img-item.kyoto {
   article.blog.item .img-item.img-item.hiroshima {
     background: url("../img/blog/Hiroshima-tablet.png") no-repeat;
     background-size: cover;
-    background-position: 100% 100%;
+    background-position: 100%;
     max-width: 384px;
     width: 100%;
     height: 300px;
@@ -188,7 +234,7 @@ header .img-item.kyoto {
   article.blog.item .img-item.img-item.kyoto {
     background: url("../img/blog/Kyoto-tablet.png") no-repeat;
     background-size: cover;
-    background-position: 100% 100%;
+    background-position: 100%;
     max-width: 384px;
     width: 100%;
     height: 300px;
